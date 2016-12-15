@@ -1,0 +1,31 @@
+Setup Mongodb and Node.js on your system.
+
+(We can use Gitbash or command prompt for setting up)
+
+We need to install certain things in order to connect to the local server(using following command)
+npm install connect
+npm install serve-static 
+
+To work with the database, you first need to create a connecction
+
+We will be using MongoDB's native Node.js driver to create the connection with MongoDB server.
+
+We need to install following drivers in the express.js by using the command
+
+npm install mongodb
+npm install assert
+npm install request
+npm install express
+npm install body-parser
+
+After establishing the connection paste the URL in "My url is alive and I want to archive its content" and save the page.
+
+Next paste the URL in "Archive for saved snapshots" and search we get require snapshot.
+
+Currently only html files screen shots are being saved and not images and videos.
+Multiple versions of the same URL are not being saved.
+Old URL is being replaced but this can be implemented with the help of time stamps.
+Querying using partial strings must be supported using maybe regex from mongodb. 
+
+
+ 
